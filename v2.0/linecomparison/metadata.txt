@@ -16,8 +16,8 @@ email=s.crommelinck@utwente.nl
 
 about=This plugin supports line-based accuracy assessment by comparing two line layers. Both layers are first buffered, then rasterized and overlaid to compute the confusion matrix. The confusion matrix is saved as a text file containing the errors of omission and commission.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/SCrommelinck/Accuracy-Assessment/tree/master/v2.0
+repository=https://github.com/SCrommelinck/Accuracy-Assessment/tree/master/v2.0
 # End of mandatory metadata
 
 # Recommended items:
@@ -26,9 +26,9 @@ repository=http://repo
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python accuracy assessment
 
-homepage=http://homepage
+homepage=https://its4land.com/
 category=Plugins
 icon=icon.png
 # experimental flag
