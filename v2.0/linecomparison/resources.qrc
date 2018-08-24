@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/plugins/LineComparison">
-    <file>icon_its4land.png</file>
-    <file>icon.png</file>
-  </qresource>
-</RCC>
