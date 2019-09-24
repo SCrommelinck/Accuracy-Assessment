@@ -17,7 +17,7 @@
         funding              : H2020 EU project its4land 
                                 (#687826, its4land.com)
                                 Work package 5: Automate It
-		      development          : Sophie Crommelinck
+	development          : Sophie Crommelinck
         QGIS Version         :  QGIS 2.18
  *****************************************************************************/
  
