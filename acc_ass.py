@@ -18,7 +18,7 @@
                                 (#687826, its4land.com)
                                 Work package 5: Automate It
 	development          : Sophie Crommelinck
-        QGIS Version         :  QGIS 2.18
+        QGIS Version         : QGIS 2.18
  *****************************************************************************/
  
  /*****************************************************************************
