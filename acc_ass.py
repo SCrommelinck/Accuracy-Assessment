@@ -1,16 +1,40 @@
-# coding=utf-8
 """
 !/bin/python
--*- coding: utf-8 -*
-QGIS Version: QGIS 2.18
-
-### Author ###
- S. Crommelinck, 2017
-
-### Description ###
- This script calculates to what extent line layers overlap. This is done by buffering the line layer to be
- investigated as well as the reference line layer, overlaying both and calculating the confusion matrix. The latter is
- saved as an *.txt file and can be used as input to plot the detection and localization quality.
+-*- coding: utf-8 -*-
+/*****************************************************************************
+        begin                : 2017
+        copyright            : (C) 2019 by Sophie Crommelinck, 
+                                University of Twente
+        email                : s.crommelinck@utwente.nl
+        description          :  this script calculates to what extent line 
+                                layers overlap. This is done by buffering the 
+                                line layer to be investigated as well as the 
+                                reference line layer, overlaying both and 
+                                calculating the confusion matrix. The latter 
+                                is saved as an *.txt file and can be used as 
+                                input to plot the detection and localization 
+                                quality.
+        funding              : H2020 EU project its4land 
+                                (#687826, its4land.com)
+                                Work package 5: Automate It
+		      development          : Sophie Crommelinck
+        QGIS Version         :  QGIS 2.18
+ *****************************************************************************/
+ 
+ /*****************************************************************************
+ *    This program is free software: you can redistribute it and/or modify    *
+ *    it under the terms of the GNU General Public License as published by    *
+ *    the Free Software Foundation, either version 3 of the License, or       *
+ *    (at your option) any later version.                                     *
+ *                                                                            *
+ *    This program is distributed in the hope that it will be useful,         *
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of          *
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           *
+ *    GNU General Public License for more details.                            *
+ *                                                                            *
+ *    You should have received a copy of the GNU General Public License       *
+ *    along with this program.  If not, see <https://www.gnu.org/licenses/>.  *
+  *****************************************************************************/
 """
 
 ### Import script in QGIS Python console ###
